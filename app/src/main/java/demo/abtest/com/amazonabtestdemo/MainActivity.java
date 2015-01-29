@@ -64,7 +64,7 @@ public class MainActivity extends ActionBarActivity {
                                      EventClient eventClient = insights.getEventClient();
 
                                      // Create a visit event when the user starts playing level 3.
-                                     Event level3Start = eventClient.createEvent("meetup");
+                                     Event level3Start = eventClient.createEvent("createmeetup");
 
                                      // Record the visit event.
                                      eventClient.recordEvent(level3Start);
